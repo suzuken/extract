@@ -7,7 +7,8 @@ Extract is HTML Extractor. This extractor is based on [wedata](http://wedata.net
 
 ## Acknowledgement
 
-[items.json]() is originally from `http://wedata.net/databases/LDRFullFeed/items.json`.
+* [items.json]() is originally from `http://wedata.net/databases/LDRFullFeed/items.json`.
+* Currently, Extract only works for URLs which in wedata.
 
 ## How to use
 
