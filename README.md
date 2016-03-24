@@ -53,3 +53,7 @@ All data in wedata are in the public domain. see also: [http://wedata.net/help/a
 ## Special Thanks
 
 * Wedata project and members.
+
+## Author
+
+Kenta Suzuki (a.k.a. suzuken)
