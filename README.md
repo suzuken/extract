@@ -1,5 +1,8 @@
 # Extract
 
+[![Build Status](https://travis-ci.org/suzuken/extract.svg?branch=master)](https://travis-ci.org/suzuken/extract)
+[![Go Report Card](https://goreportcard.com/badge/github.com/suzuken/extract)](https://goreportcard.com/report/github.com/suzuken/extract)
+
 Extract is HTML Extractor. This extractor is based on [wedata](http://wedata.net/).
 
 ## Acknowledgement

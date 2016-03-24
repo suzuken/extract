@@ -15,9 +15,9 @@ import (
 	xmlpath "gopkg.in/xmlpath.v2"
 )
 
-// IExtractor
+// IExtractor is interface of extractor.
 type IExtractor interface {
-	Extract(r io.Reader)
+	Extract(r io.Reader, rawurl string)
 }
 
 // Rule is
@@ -51,13 +51,13 @@ func (r *Rule) XPath() string {
 	return r.Data.XPath
 }
 
-// XPath get URL from rule.
+// URL get raw URL from rule.
 // URL is raw regular expression string.
 func (r *Rule) URL() string {
 	return r.Data.URL
 }
 
-// Extractor
+// Extractor is actual extractor
 type Extractor struct {
 	rules []Rule
 }
